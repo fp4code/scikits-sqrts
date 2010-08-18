@@ -15,7 +15,7 @@ def posimag(z):
     """Positive imaginary part"""
     return 1j*np.conj(np.sqrt(-np.conj(z)))
 
-class nearest:
+class Nearest:
     """nearest square root"""
     def __init__(self, value):
         self.previous = np.complex(value)
