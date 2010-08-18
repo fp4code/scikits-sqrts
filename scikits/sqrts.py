@@ -7,8 +7,8 @@ def nmv(z):
     Cf. http://dx.doi.org/10.1088/0150-536X/8/4/002"""
     return np.sqrt(1j)*np.sqrt(-1j*z)
 
-def antima(z):
-    """10.1088/0150-536X/8/4/002  nmv2"""
+def nmvo(z):
+    """Nevière-Maystre-Vincent square-root, opposite branch cut"""
     return -np.sqrt(-1j)*np.sqrt(1j*z)
 
 def posimag(z):
